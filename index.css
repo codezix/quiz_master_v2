@@ -1,0 +1,77 @@
+body {
+    /* background-color: brown; */
+    background-image: url("img/app.jpeg");
+    background-size: 500px 1000px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container {
+    margin: auto auto;
+    /* background-image: url("img/app.jpeg"); */
+    background-color: brown;
+    padding-top: 50px;
+    max-width: 50%;
+    box-shadow: 20px 20px #888888;
+}
+
+.hover-shadow-box-animation {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    margin: 10px;
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
+}
+
+.hover-shadow-box-animation:hover,
+.hover-shadow-box-animation:focus,
+.hover-shadow-box-animation:active {
+    box-shadow: 1px 10px 10px -10px rgba(0, 0, 24, 0.5);
+    transform: scale(1.2);
+}
+
+a {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+a:hover {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+h1,
+h3 {
+    color: white;
+}
+
+@keyframes bouncing-loader {
+    to {
+        opacity: 0.1;
+        transform: translate3d(0, -1rem, 0);
+    }
+}
+
+.bouncing-loader {
+    display: flex;
+    justify-content: center;
+}
+
+.bouncing-loader>div {
+    width: 1rem;
+    height: 1rem;
+    margin: 3rem 0.2rem;
+    background: black;
+    border-radius: 50%;
+    animation: bouncing-loader 0.6s infinite alternate;
+}
+
+.bouncing-loader>div:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.bouncing-loader>div:nth-child(3) {
+    animation-delay: 0.4s;
+}
