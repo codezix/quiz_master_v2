@@ -44,8 +44,8 @@ body {
 
 .option-block {
     padding: 10px;
-    background: aliceblue;
-    border: 1px solid #84c5fe;
+    background: white;
+    border: 1px solid green;
     margin-bottom: 10px;
     cursor: pointer;
 }
