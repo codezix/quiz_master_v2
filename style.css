@@ -1,267 +1,18 @@
-body {
-    background-image: url("img/app.jpeg");
-    background-size: 500px 1000px;
-}
-
-body>header {
-    -webkit-tap-highlight-color: transparent;
-    --blue: #007bff;
-    --indigo: #6610f2;
-    --purple: #6f42c1;
-    --pink: #e83e8c;
-    --red: #dc3545;
-    --orange: #fd7e14;
-    --yellow: #ffc107;
-    --green: #28a745;
-    --teal: #20c997;
-    --cyan: #17a2b8;
-    --white: #fff;
-    --gray: #6c757d;
-    --gray-dark: #343a40;
-    --primary: #007bff;
-    --secondary: #6c757d;
-    --success: #28a745;
-    --info: #17a2b8;
-    --warning: #ffc107;
-    --danger: #dc3545;
-    --light: #f8f9fa;
-    --dark: #343a40;
-    --breakpoint-xs: 0;
-    --breakpoint-sm: 576px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 992px;
-    --breakpoint-xl: 1200px;
-    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: left;
-    box-sizing: border-box;
-    display: block;
-    background-color: brown !important;
-    padding: 15px;
-    color: brown;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-}
-
-body>div {
-    -webkit-tap-highlight-color: transparent;
-    --breakpoint-sm: 576px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 992px;
-    --breakpoint-xl: 1200px;
-    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    box-sizing: border-box;
-    margin-top: 54px;
-}
-
-#result>form>fieldset {
-    -webkit-tap-highlight-color: transparent;
-    --breakpoint-sm: 576px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 992px;
-    --breakpoint-xl: 1200px;
-    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: center;
-    list-style: none;
-    font-size: 20px;
-}
-
-#result {
-    margin: auto;
-    padding-bottom: 50px;
-    text-align: center;
-    width: 50%;
-    list-style: none;
-    font-size: 20px;
-}
-
-.btn:hover {
-    background-color: brown;
-}
-
-#previous {
-    --blue: #007bff;
-    --indigo: #6610f2;
-    --purple: #6f42c1;
-    --pink: #e83e8c;
-    --red: #dc3545;
-    --orange: #fd7e14;
-    --yellow: #ffc107;
-    --green: #28a745;
-    --teal: #20c997;
-    --cyan: #17a2b8;
-    --white: #fff;
-    --gray: #6c757d;
-    --gray-dark: #343a40;
-    --primary: #007bff;
-    --secondary: #6c757d;
-    --success: #28a745;
-    --info: #17a2b8;
-    --warning: #ffc107;
-    --danger: #dc3545;
-    --light: #f8f9fa;
-    --dark: #343a40;
-    --breakpoint-xs: 0;
-    -webkit-tap-highlight-color: transparent;
-    --breakpoint-sm: 576px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 992px;
-    --breakpoint-xl: 1200px;
-    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    box-sizing: border-box;
-    margin: 0;
-    font-family: inherit;
-    overflow: visible;
-    text-transform: none;
-    -webkit-appearance: button;
-    display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    vertical-align: middle;
-    user-select: none;
-    border: 1px solid transparent;
-    line-height: 1.5;
-    border-radius: .25rem;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    opacity: .65;
-    border-color: #28a745;
-    list-style: none;
-    background-color: green;
-    margin-top: 20px;
-    color: #FFF;
-    font-size: 14px;
-    padding: 5px 20px;
-}
-
-#next {
-    --blue: #007bff;
-    --indigo: #6610f2;
-    --purple: #6f42c1;
-    --pink: #e83e8c;
-    --red: #dc3545;
-    --orange: #fd7e14;
-    --yellow: #ffc107;
-    --green: #28a745;
-    --teal: #20c997;
-    --cyan: #17a2b8;
-    --white: #fff;
-    --gray: #6c757d;
-    --gray-dark: #343a40;
-    --primary: #007bff;
-    --secondary: #6c757d;
-    --success: #28a745;
-    --info: #17a2b8;
-    --warning: #ffc107;
-    --danger: #dc3545;
-    --light: #f8f9fa;
-    --dark: #343a40;
-    --breakpoint-xs: 0;
-    -webkit-tap-highlight-color: transparent;
-    --breakpoint-sm: 576px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 992px;
-    --breakpoint-xl: 1200px;
-    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    box-sizing: border-box;
-    margin: 0;
-    font-family: inherit;
-    overflow: visible;
-    text-transform: none;
-    -webkit-appearance: button;
-    display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    vertical-align: middle;
-    user-select: none;
-    border: 1px solid transparent;
-    line-height: 1.5;
-    border-radius: .25rem;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    border-color: #28a745;
-    cursor: pointer;
-    list-style: none;
-    background-color: green;
-    margin-top: 20px;
-    color: #FFF;
-    font-size: 14px;
-    padding: 5px 20px;
-}
-
-
-/* #previous {
-    list-style: none;
-    background-color: green;
-    margin-top: 20px;
-    color: #FFF;
-    font-size: 14px;
-    padding: 5px 20px;
-} */
-
-#previous:hover {
-    background-color: brown;
-}
-
-
-/* #next {
-    list-style: none;
-    background-color: green;
-    margin-top: 20px;
-    color: #FFF;
-    font-size: 14px;
-    padding: 5px 20px;
-} */
-
-#next:hover {
-    background-color: brown;
-}
-
-#question {
-    text-align: center;
-    list-style: none;
-    color: black;
-    font-size: 40px;
-}
-
-#qa {
-    list-style: none;
+.nul {
+    background: brown;
 }
 
 .content {
-    margin-top: 54px;
-    /* margin: auto;
-    width: 50%; */
-    /* padding-top: 54px; */
+    margin-top: 64px;
 }
 
-
-/* .header {
+.header {
     padding: 15px;
-    color: brown;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 9999;
-} */
+}
 
 .left-title {
     width: 80px;
@@ -278,30 +29,21 @@ body>div {
 }
 
 .quiz-body {
-    /* margin-top: 15px; */
-    margin: auto;
+    margin-top: 15px;
     padding-bottom: 50px;
-    text-align: center;
-    width: 50%;
-    list-style: none;
 }
 
 .option-block-container {
-    padding-top: 20px;
+    margin-top: 20px;
     max-width: 420px;
-    width: 50%;
-    margin: auto;
-    list-style: none;
 }
 
 .option-block {
     padding: 10px;
     background: aliceblue;
-    border: 1px solid green;
-    /*#84c5fe */
+    border: 1px solid #84c5fe;
     margin-bottom: 10px;
     cursor: pointer;
-    list-style: none;
 }
 
 .result-question {
@@ -330,23 +72,6 @@ body>div {
     padding-bottom: 15px;
 }
 
-@media (max-width: 468px) {
-    .content {
-        margin-top: 54px !important;
-    }
-    .quiz-body {
-        margin-top: 15px !important;
-        padding-bottom: 50px !important;
-    }
-    .option-block-container {
-        margin-top: 20px !important;
-        max-width: 420px !important;
-    }
-    .option-block {
-        padding: 10px !important;
-        background: aliceblue !important;
-        border: 1px solid #84c5fe !important;
-        margin-bottom: 10px !important;
-        cursor: pointer !important;
-    }
+.btn:hover {
+    background-color: brown;
 }
