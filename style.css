@@ -1,3 +1,7 @@
+body {
+    background-image: url("img/app.jpeg");
+    background-size: 500px 1000px;
+}
 .nul {
     background: brown;
 }
